@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    
+    display: flex;
+
+}
+.entradasLogin{
+    height: 300px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.entrada_email{
+
+}
