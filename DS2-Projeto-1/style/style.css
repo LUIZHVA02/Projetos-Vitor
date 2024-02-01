@@ -3,21 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../background.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 main{
-    
+    height: 100vh;
+    width: 100vw;
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.login{
+    margin: 0px 130px 100px 130px;
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .entradasLogin{
-    height: 300px;
-    width: 150px;
+    padding: 37px;
+    height: 520px;
+    width: 450px;
     display: flex;
     position: relative;
     flex-direction: column;
-    
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    justify-content: center;
 }
 
 .entrada_email{
+    height: 70px;
+    width: 375px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #fff;
+    opacity: 1;
+}
+
+.entrada_senha{
+    height: 70px;
+    width: 375px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background: #fff;
 
 }
