@@ -1,0 +1,6 @@
+.fundoPadrao{
+    background-image: url(../image/png/background.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
