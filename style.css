@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.linkTarefas{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #1C5D72;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
