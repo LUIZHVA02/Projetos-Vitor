@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../json/home.js"></script>
+    <script src="../json/home.js" defer></script>
     <link rel="stylesheet" href="../css/fundo.css">
     <link rel="stylesheet" href="../css/home.css">
     <title>Home</title>
 </head>
+
 <body class="fundoPadrao">
     <header>
         <div class="mensagem">
             <h1>Olá, Seja Bem Vindo ao Nosso Sistema de Tarefas Online.</h1>
         </div>
     </header>
-    
+
     <main>
         <div class="holderTarefas" id="holderTarefas">
             <h1>Insira ao Lado os Dados de Suas Tarefas Como:</h1>
@@ -24,7 +26,20 @@
                 </div>
             </div>
         </div>
-        <div class="criarTarefas" id="criarTarefas"></div>
+        <div class="criarTarefas" id="criarTarefas">
+            <div class="titulo">
+                <h1>Adicione sua Tarefa:</h1>
+            </div>
+
+            <div class="inputs">
+                <input type="text" id="nomeTarefa" class="nomeTarefa">
+
+                <textarea id="descricao" class="descricao" cols="60" rows="10"></textarea>
+
+                <input type="date" id="dataTarefa" class="">
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
