@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 40px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem{
+    padding-left: 40px;
+    width: 90vw;
+    height: 120px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.mensagem h1{
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main{
+    padding: 40px 80px;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holderTarefas{
+    padding: 40px 40px;
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(28, 93, 114, 0.5);
+    border-radius: 25px;
+    gap: 25px;
+}
+
+.holderTarefas h1{
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.criarTarefas{
+    padding: 20px;
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    gap: 25px;
+}
