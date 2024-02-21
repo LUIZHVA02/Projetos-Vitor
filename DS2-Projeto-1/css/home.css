@@ -70,8 +70,10 @@ main{
     line-height: normal;
 }
 
+
+
 .criarTarefas{
-    padding: 20px;
+    padding: 2%;
     width: 45%;
     height: 100%;
     display: flex;
@@ -94,7 +96,7 @@ main{
 .titulo h1{
     color:  rgba(28, 93, 114);
     font-family: 'Lucida Sans Unicode';
-    font-size: 35px;
+    font-size: 260%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -111,7 +113,7 @@ main{
 }
 
 .nomeTarefa{
-    padding: 25px;
+    padding: 3% 4%;
     height: 35%;
     width: 80%;
     outline: none;
@@ -119,7 +121,7 @@ main{
     border-radius: 50px;
     color: #000;
     font-family: 'Lucida Sans Unicode';
-    font-size: 20px;
+    font-size: 150%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -128,7 +130,7 @@ main{
 }
 
 .descricao{
-    padding: 25px;
+    padding: 3% 4%;
     height: 50%;
     width: 80%;
     outline: none;
@@ -136,14 +138,14 @@ main{
     border-radius: 50px;
     color: #000;
     font-family: 'Lucida Sans Unicode';
-    font-size: 18px;
+    font-size: 112%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .dataTarefa{
-    padding: 20px;
+    padding: 3%;    
     height: 25%;
     width: 60%;
     outline: none;
@@ -151,23 +153,25 @@ main{
     border-radius: 50px;
     color: #000;
     font-family: 'Lucida Sans Unicode';
-    font-size: 20px;
+    font-size: 130%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
-.botaoCriarTarefa{
+.criarTarefa{
     height: 15%;
     width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color:  rgba(28, 93, 114);
-    outline: none;
-    border: none;
     border-radius: 50px;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
-    font-size: 20px;
+    font-size: 130%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-decoration: none;
 }
