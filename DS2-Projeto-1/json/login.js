@@ -3,6 +3,7 @@
 async function validarLogin() {
     const nome = document.getElementById('entrada_email').value
     const senha = document.getElementById('entrada_senha').value
+    let statusLogin = false
 
     if (nome === "" || senha === "") {
         alert('Preencha os campos corretamente!!!')
@@ -10,10 +11,10 @@ async function validarLogin() {
         const users = await fetch('http://localhost:8080/usuario')
         const listusers = await users.json()
 
-        let statusLogin = false
-
         listusers.forEach((user) => {
             if (nome === user.nome && senha === user.senha) {
+                localStorage.setItem('idUserX', user.id)
+
                 alert('Usuário Logado com sucesso !!!')
                 statusLogin = true
                 window.location.href = '../pages/home.html'
