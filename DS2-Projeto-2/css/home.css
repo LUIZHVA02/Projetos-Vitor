@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 2%;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem{
+    padding: 2%;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.mensagem h1{
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main{
+    padding: 3% 4%;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holderTarefas{
+    padding: 2%;
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(28, 93, 114, 0.5);
+    border-radius: 25px;
+    gap: 15px;
+
+}
+
+.holderTarefas h1{
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.itemTarefa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.holderInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    width: 35vw;
+    height: 40vh;
+    gap: 10px;
+}
+.labelDataTarefa{
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diaTarefa{
+    width: 10vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 150%;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.descTarefa{
+    width: 25vw;
+    height: 30vh;
+    padding: 5%;
+    text-align: justify;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.criarTarefas{
+    padding: 2%;
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.titulo{
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    color:  rgba(28, 93, 114);
+    font-family: 'Lucida Sans Unicode';
+    font-size: 260%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.inputs{
+    display: flex;
+    height: 60vh;
+    width: 35vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nomeTarefa{
+    padding: 3% 4%;
+    height: 10vh;
+    width: 30vw;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 200%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao{
+    height: 20vh;
+    width: 30vw;
+    padding: 4%;
+    text-align: justify;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dataTarefa{
+    padding: 3%;    
+    height: 5vh;
+    width: 20vw;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.criarTarefa{
+    height: 15%;
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(28, 93, 114);
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}

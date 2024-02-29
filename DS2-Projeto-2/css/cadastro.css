@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.entradasCadastro {
+    padding: 37px;
+    height: 600px;
+    width: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.holderTitulo{
+    height: 96px;
+    width: max-width;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.holderTitulo h1{
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.holderInfo{
+    height: 300px;
+    width: max-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsCadastro{
+    height: 70px;
+    width: 375px;
+    border-radius: 50px;
+    background: #fff;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeLabel{
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nomeCadastro{
+    height: 56px;
+    width: 325px;
+    border: none;
+    outline: none;
+    background: #fff;
+    opacity: 1;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.emailLabel{
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.emailCadastro{
+    height: 56px;
+    width: 325px;
+    border: none;
+    outline: none;
+    background: #fff;
+    opacity: 1;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.senhaLabel{
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.senhaCadastro{
+    height: 56px;
+    width: 325px;
+    border: none;
+    outline: none;
+    background: #fff;
+    opacity: 1;
+    color: #000;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cadastrar{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 64px;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #1C5D72;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}

@@ -88,7 +88,7 @@ main{
     height: 40vh;
     gap: 10px;
 }
-.labelDataTarefa{
+.nomeDataTarefa{
     width: 30vw;
     height: 8vh;
     display: flex;
@@ -97,7 +97,7 @@ main{
     justify-content: space-between;
 }
 
-.diaTarefa{
+.nomeDataTarefa .dataTarefa{
     width: 10vw;
     height: 8vh;
     display: flex;
@@ -112,7 +112,7 @@ main{
     line-height: normal;
 }
 
-.descTarefa{
+.descricaoTarefa{
     width: 25vw;
     height: 30vh;
     padding: 5%;
@@ -169,7 +169,7 @@ main{
     gap: 25px;
 }
 
-.nomeTarefa{
+.criarTarefas .nomeTarefa{
     padding: 3% 4%;
     height: 10vh;
     width: 30vw;
@@ -202,7 +202,7 @@ main{
     line-height: normal;
 }
 
-.dataTarefa{
+.criarTarefas .dataTarefa{
     padding: 3%;    
     height: 5vh;
     width: 20vw;

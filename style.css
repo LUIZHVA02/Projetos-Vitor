@@ -16,11 +16,10 @@ main{
     height: 100vh;
 }
 .linkTarefas{
-    margin: 100px;
     display: flex;
     flex-direction: row;
-    width: 250px;
-    height: 64px;
+    width: 300px;
+    height: 80px;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
     font-size: 24px;
@@ -31,4 +30,11 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    text-align: center;
+}
+.linkTarefas-1{
+    margin: 100px;
+}
+.linkTarefas-2{
+    margin: 100px;
 }

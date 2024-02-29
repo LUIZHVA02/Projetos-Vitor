@@ -1,0 +1,73 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": " joao@silva.com",
+      "senha": "joao"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Salvagni",
+      "email": " maria@salvagni.com",
+      "senha": "maria"
+    },
+    {
+      "id": 3,
+      "nome": "Gabriel Pereira",
+      "email": " gabriel@pereira.com",
+      "senha": "gabriel"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "título": "Tarefa Aleatória 1",
+      "descrição": "Limpar a Casa",
+      "dataConclusão": "31/01/2024",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "título": "Tarefa Aleatória 2",
+      "descrição": "Aprender inglês",
+      "dataConclusão": "30/10/2024",
+      "idUsuario": 1
+    },
+    {
+      "id": 3,
+      "título": "Tarefa Aleatória 3",
+      "descrição": "Novo emprego",
+      "dataConclusão": "10/02/2024",
+      "idUsuario": 3
+    },
+    {
+      "id": 4,
+      "título": "Tarefa Aleatória 4",
+      "descrição": "Viajar",
+      "dataConclusão": "05/03/2024",
+      "idUsuario": 2
+    },
+    {
+      "id": 5,
+      "título": "Tarefa Aleatória 5",
+      "descrição": "Conhecer mais pessoas",
+      "dataConclusão": "20/05/2024",
+      "idUsuario": 3
+    },
+    {
+      "nomeTarefa": "Teste",
+      "descricao": "dq3w3q3q",
+      "dataTarefa": {},
+      "idUsuario": 1,
+      "id": 6
+    },
+    {
+      "nomeTarefa": "Teste",
+      "descricao": "alkhbvklsjrayuihafsbdvjkhakhfa",
+      "dataTarefa": "2024-02-29",
+      "idUsuario": 1,
+      "id": 7
+    }
+  ]
+}
