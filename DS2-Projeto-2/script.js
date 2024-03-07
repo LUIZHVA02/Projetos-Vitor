@@ -3,7 +3,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('DS2-Projeto-2/db.json');
 const middlewares = jsonServer.defaults();
 
-const port = process.env.PORT || 7080;
+const port = process.env.PORT || 8070;
 
 server.use(middlewares);
 server.use(router);

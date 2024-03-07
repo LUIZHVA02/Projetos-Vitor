@@ -12,28 +12,12 @@ async function pegarInfo() {
 
 async function mostrarTarefas(tarefas) {
 
-    const itemTarefa1 = document.getElementById('itemTarefa1')
-    const holderInfo1 = document.getElementById('holderInfo1')
-    const nomeDataTarefa1 = document.getElementById('nomeDataTarefa1')
-
-    const nomeTarefa1 = document.getElementById('nomeTarefa1')
-    nomeTarefa1.textContent = tarefas.título
-
-    const dataTarefa1 = document.getElementById('dataTarefa1')
-    dataTarefa1.textContent = tarefas.dataConclusão
-
-    const descricaoTarefa1 = document.getElementById('descricaoTarefa1')
-    descricaoTarefa1.
-
-    nomeDataTarefa1.append(nomeTarefa1, dataTarefa1)
-    holderInfo1.append(nomeDataTarefa1, descricaoTarefa1)
-
     tarefas.forEach(tarefa => {
 
         if (idUser == tarefa.idUsuario) {
 
             const itemTarefa = document.createElement('div')
-            itemTarefa.classList.add('itemTarefa', 'carousel-item')
+            itemTarefa.classList.add('itemTarefa')
             itemTarefa.id = ('itemTarefa')
 
             const holderInfo = document.createElement('div')
@@ -47,27 +31,28 @@ async function mostrarTarefas(tarefas) {
             const nomeTarefa = document.createElement('h2')
             nomeTarefa.classList.add('nomeTarefa')
             nomeTarefa.id = ('nomeTarefa')
-            nomeTarefa.textContent = tarefa.título
+            nomeTarefa.textContent = tarefa.nomeTarefa
 
             const dataTarefa = document.createElement('div')
             dataTarefa.classList.add('dataTarefa')
             dataTarefa.id = ('dataTarefa')
-            dataTarefa.textContent = tarefa.dataConclusão
+            dataTarefa.textContent = tarefa.dataTarefa
 
-            const descricaoTarefa = document.createElement('textarea')
+            const descricaoTarefa = document.createElement('p')
             descricaoTarefa.classList.add('descricaoTarefa')
             descricaoTarefa.id = ('descricaoTarefa')
-            descricaoTarefa.textContent = tarefa.descrição
+            descricaoTarefa.textContent = tarefa.descricao
 
-            nomeTarefa.titulo = tarefa.título
-            dataTarefa.data = tarefa.dataConclusão
-            descricaoTarefa.descricao = tarefa.descrição
+            nomeTarefa.titulo = tarefa.nomeTarefa
+            dataTarefa.data = tarefa.dataTarefa
+            descricaoTarefa.descricao = tarefa.descricao
 
             nomeDataTarefa.append(nomeTarefa, dataTarefa)
             holderInfo.append(nomeDataTarefa, descricaoTarefa)
-
-            const containerTarefas = document.getElementById('containerTarefas')
-            containerTarefas.appendChild(holderInfo);
+            itemTarefa.appendChild(holderInfo)
+            
+            const tarefas = document.getElementById('tarefas')
+            tarefas.appendChild(itemTarefa);
         }
     });
 

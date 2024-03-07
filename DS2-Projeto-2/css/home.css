@@ -49,7 +49,7 @@ main{
     justify-content: space-between;
 }
 
-.holderTarefas{
+.carrosselTarefas{
     padding: 2%;
     width: 40vw;
     height: 65vh;
@@ -63,7 +63,7 @@ main{
 
 }
 
-.holderTarefas h1{
+.carrosselTarefas h1{
     color: #fff;
     font-family: 'Lucida Sans Unicode';
     font-size: 32px;
@@ -72,12 +72,38 @@ main{
     line-height: normal;
 }
 
+.holderTarefas{
+    height: 45vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.tarefas{
+    height: 35vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
 .itemTarefa{
+    height: 30vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .holderInfo{
     display: flex;
     flex-direction: column;
@@ -85,10 +111,19 @@ main{
     justify-content: center;
     padding: 3%;
     width: 35vw;
-    height: 40vh;
+    height: 35vh;
     gap: 10px;
 }
-.labelDataTarefa{
+
+.holderTarefas::-webkit-scrollbar {
+    display: none;
+    overflow-y: hidden;
+}
+.holderTarefas::-webkit-scrollbar:horizontal{
+    display: none;
+}
+
+.nomeDataTarefa{
     width: 30vw;
     height: 8vh;
     display: flex;
@@ -97,13 +132,13 @@ main{
     justify-content: space-between;
 }
 
-.diaTarefa{
-    width: 10vw;
+.nomeTarefa{
+    width: 30vw;
     height: 8vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
     font-size: 150%;
@@ -112,9 +147,24 @@ main{
     line-height: normal;
 }
 
-.descTarefa{
+.nomeDataTarefa .dataTarefa{
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 120%;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.descricaoTarefa{
     width: 25vw;
-    height: 30vh;
+    height:5vh;
     padding: 5%;
     text-align: justify;
     outline: none;
@@ -124,10 +174,11 @@ main{
     font-family: 'Lucida Sans Unicode';
     font-size: 150%;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 200;
     line-height: normal;
-
+    background-color: #fff;
 }
+
 .criarTarefas{
     padding: 2%;
     width: 40vw;
@@ -169,7 +220,7 @@ main{
     gap: 25px;
 }
 
-.nomeTarefa{
+.criarTarefas .nomeTarefa{
     padding: 3% 4%;
     height: 10vh;
     width: 30vw;
@@ -202,7 +253,7 @@ main{
     line-height: normal;
 }
 
-.dataTarefa{
+.criarTarefas .dataTarefa{
     padding: 3%;    
     height: 5vh;
     width: 20vw;
