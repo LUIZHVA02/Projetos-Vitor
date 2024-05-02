@@ -1,0 +1,61 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": " joao@silva.com",
+      "senha": "joao"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Salvagni",
+      "email": " maria@salvagni.com",
+      "senha": "maria"
+    },
+    {
+      "id": 3,
+      "nome": "Gabriel Pereira",
+      "email": " gabriel@pereira.com",
+      "senha": "gabriel"
+    },
+    {
+      "nomeCadastro": "Luiz",
+      "emailCadastro": "luiz@gmail.com",
+      "senhaCadastro": "vidal",
+      "id": 4
+    },
+    {
+      "nomeCadastro": "rubão",
+      "emailCadastro": "rusback@gmail.com",
+      "senhaCadastro": "rubão",
+      "id": 5
+    },
+    {
+      "nomeCadastro": "Luiz",
+      "emailCadastro": "luiz@gmail.com",
+      "senhaCadastro": "123",
+      "id": 6
+    }
+  ],
+
+
+  "pesquisas": [
+    {
+      "id": 11,
+      "infoPesquisa": "",
+      "idioma": "",
+      "dataPesquisa": "",
+      "idUsuario": 1
+    }
+  ],
+
+  "respostas": [
+    {
+      "id": 1,
+      "infoResposta": "",
+      "idioma": "",
+      "dataResposta": "",
+      "idUsuario": 1
+    }
+  ]
+}

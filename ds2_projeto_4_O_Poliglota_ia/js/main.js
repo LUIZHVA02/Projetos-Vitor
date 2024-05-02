@@ -12,8 +12,8 @@ containerLogin.style.background = "linear-gradient(0deg, #72adf0 0%, #2767b1 80%
 function criarLogin() {
     const holderAll = document.createElement('div')
     holderAll.classList.add('holderAll')
-    holderAll.style.height = "800px"
-    holderAll.style.width = "600px"
+    holderAll.style.height = "600px"
+    holderAll.style.width = "400px"
     holderAll.style.display = "flex"
     holderAll.style.flexDirection = "column"
     holderAll.style.alignItems = "center"
@@ -24,7 +24,7 @@ function criarLogin() {
 
     const holderTitulo = document.createElement('div')
     holderTitulo.classList.add('holderTitulo')
-    holderTitulo.style.height = "160px"
+    holderTitulo.style.height = "120px"
     holderTitulo.style.display = "flex"
     holderTitulo.style.flexDirection = "column"
     holderTitulo.style.alignItems = "center"
@@ -34,15 +34,15 @@ function criarLogin() {
     tituloLogin.classList.add('tituloLogin')
     tituloLogin.textContent = "O Poliglota I.A."
     tituloLogin.style.color = "#ffffff"
-    tituloLogin.style.fontSize = "72px"
+    tituloLogin.style.fontSize = "56px"
     tituloLogin.style.textAlign = "center"
 
     const legenda = document.createElement('h2')
     legenda.classList.add('legenda')
     legenda.textContent = "Para uma melhor experiência entre em sua conta"
-    legenda.style.width = "480px"
+    legenda.style.width = "360px"
     legenda.style.color = "#ffffff"
-    legenda.style.fontSize = "32px"
+    legenda.style.fontSize = "24px"
     legenda.style.textAlign = "center"
 
 
@@ -52,7 +52,7 @@ function criarLogin() {
 
     const holderInputEmail = document.createElement('div')
     holderInputEmail.classList.add('holderInputEmail')
-    holderInputEmail.style.width = "500px"
+    holderInputEmail.style.width = "320px"
     holderInputEmail.style.color = "#ffffff"
     holderInputEmail.style.textAlign = "start"
     holderInputEmail.style.display = "flex"
@@ -62,27 +62,27 @@ function criarLogin() {
     emailH1.classList.add('emailH1')
     emailH1.style.color = "#ffffff"
     emailH1.textContent = "Email:"
-    emailH1.style.fontSize = "48px"
+    emailH1.style.fontSize = "24px"
     emailH1.style.fontFamily = "Rubik, sans-serif"
     emailH1.style.fontWeight = "500"
     emailH1.style.textAlign = "start"
 
     const inputEmail = document.createElement('input')
     inputEmail.classList.add('inputEmail')
-    inputEmail.style.width = "500px"
-    inputEmail.style.height = "100px"
+    inputEmail.style.width = "320px"
+    inputEmail.style.height = "56px"
     inputEmail.style.border = "none"
     inputEmail.style.outline = "none"
     inputEmail.style.padding = "16px"
     inputEmail.style.borderRadius = "25px"
-    inputEmail.style.fontSize = "36px"
+    inputEmail.style.fontSize = "24px"
     inputEmail.style.fontFamily = "Rubik, sans-serif"
     inputEmail.style.fontWeight = "500"
 
 
     const holderInputSenha = document.createElement('div')
     holderInputSenha.classList.add('holderInputSenha')
-    holderInputSenha.style.width = "500px"
+    holderInputSenha.style.width = "320px"
     holderInputSenha.style.color = "#ffffff"
     holderInputSenha.style.textAlign = "start"
     holderInputSenha.style.display = "flex"
@@ -92,20 +92,20 @@ function criarLogin() {
     senhaH1.classList.add('senhaH1')
     senhaH1.textContent = "Senha:"
     senhaH1.style.color = "#ffffff"
-    senhaH1.style.fontSize = "48px"
+    senhaH1.style.fontSize = "24px"
     senhaH1.style.fontFamily = "Rubik, sans-serif"
     senhaH1.style.fontWeight = "500"
     senhaH1.style.textAlign = "start"
 
     const inputSenha = document.createElement('input')
     inputSenha.classList.add('inputSenha')
-    inputSenha.style.width = "500px"
-    inputSenha.style.height = "100px"
+    inputSenha.style.width = "320px"
+    inputSenha.style.height = "56px"
     inputSenha.style.border = "none"
     inputSenha.style.outline = "none"
     inputSenha.style.padding = "16px"
     inputSenha.style.borderRadius = "25px"
-    inputSenha.style.fontSize = "36px"
+    inputSenha.style.fontSize = "24px"
     inputSenha.style.fontFamily = "Rubik, sans-serif"
     inputSenha.style.fontWeight = "500"
 
@@ -114,8 +114,8 @@ function criarLogin() {
     const btnEntrar = document.createElement('button')
     btnEntrar.classList.add("btnEntrar")
     btnEntrar.textContent = "Entrar"
-    btnEntrar.style.width = "500px"
-    btnEntrar.style.height = "120px"
+    btnEntrar.style.width = "240px"
+    btnEntrar.style.height = "72px"
     btnEntrar.style.borderRadius = "25px"
     btnEntrar.style.border = "none"
     btnEntrar.style.outline = "none"
